@@ -1,7 +1,7 @@
 # Html-and-Css-Projects
 Html and Css created projects 🌐
 
-#Text in Portuguese,English and Spanhin
+# Summary in Portuguese,English and Spanhin
 
 # Resumo em Português
 
