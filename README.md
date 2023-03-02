@@ -18,8 +18,15 @@ Olá a todos a criação de reposotorio foi destinado a colocar os projetos em q
 5.Todos os projetos serão em Html e Css,mas posso publicar alguns que contenha também como exemplo:JavaScript.
 
 
+# Summary in English
 
 
 
+
+
+# Resumen en Español
+
+
+(Muito Obrigada),(Thank You),(Gracias) is (どうもありがとうございます)
 
 # https://github.com/TassianaMilka/Html-and-Css-Project/wiki
