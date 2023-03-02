@@ -9,7 +9,9 @@ Olá a todos a criação de reposotorio foi destinado a colocar os projetos em q
 
 2.Alguns projetos estará com numeração junto com nome,pois caso faço um de outra forma de modelo e colocar o mesmo diferencia pelo numero;
 
-3.
+3.Tentarei realizar projetos não só idioma,mas em outros também;
+
+4.
 
 
 
