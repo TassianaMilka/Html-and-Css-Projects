@@ -17,6 +17,7 @@ Olá a todos a criação de reposotorio foi destinado a colocar os projetos em q
 
 5.Todos os projetos serão em Html e Css,mas posso publicar alguns que contenha também como exemplo:JavaScript.
 
+# --------------------------------------------------------------------------------------------------------------------------------
 
 # Summary in English
 
@@ -32,7 +33,7 @@ Hello everyone the creation of a replenishment was intended to put the projects 
 
 5.All projects will be in HTML and CSS, but also publish alnuns that also content as an example: JavaScript.
 
-
+#--------------------------------------------------------------------------------------------------------------------------------
 
 # Resumen en Español
 
@@ -48,7 +49,7 @@ Hola a todos, la creación de un reembolso tenía la intención de poner los pro
 
 5.Todos los proyectos estarán en HTML y CSS, pero también publicarán los Alnuns que contienen como ejemplo: JavaScript.
 
-
+# --------------------------------------------------------------------------------------------------------------------------------
 (Muito Obrigada),(Thank You),(Gracias) is (どうもありがとうございます)
 
 # https://github.com/TassianaMilka/Html-and-Css-Project/wiki
