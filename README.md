@@ -33,7 +33,7 @@ Hello everyone the creation of a replenishment was intended to put the projects 
 
 5.All projects will be in HTML and CSS, but also publish alnuns that also content as an example: JavaScript.
 
-#--------------------------------------------------------------------------------------------------------------------------------
+# --------------------------------------------------------------------------------------------------------------------------------
 
 # Resumen en Español
 
