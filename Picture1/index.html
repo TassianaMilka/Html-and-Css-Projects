@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+
+<html  lang="en" dir="ltr">
+
+<head>
+<mete charset="utf-8">
+<mete name="viewport" content="width=device-width,initial-scale=1.0"></mete>
+<title>Picture</title>
+ </head>
+
+<style>
+
+	*{
+
+
+     margin:20px;
+     padding:20px;
+     box-sizing:border-box;
+     background-color: #BDB76B;
+
+
+	}
+
+    body{
+
+
+     overflow-y:scroll;
+   
+    } 
+
+
+      // Screen Scrolling
+
+    body :: webkit-scroll{
+
+     width:20px;
+     
+    
+    } 
+
+    body:: webkit-scroll-thumb{
+
+    
+     border-radius:20px;
+    
+
+    } 
+
+    div.Infor{
+   text-align: center;
+   }
+   
+  .img{
+
+         margin:0px;
+         padding:0px;   
+
+    } 
+
+  
+  
+    </style>
+    <body>
+    <div class= "Infor">
+    <h1>Picture</h1>
+    </div>
+    <p>Taken from the website as an example.</p>
+    <div class="Text">
+        <div class= "Text1">
+            <form action="Information">
+
+
+    
+    <img src="https://cdn-icons-png.flaticon.com/512/4238/4238090.png"><h2>Earth</h2>
+    <img src="https://cdn-icons-png.flaticon.com/512/6503/6503066.png"><h2>City</h2>
+    <img src="https://cdn-icons-png.flaticon.com/512/1927/1927060.png"><h2>Forest</h2>
+    <img src="https://cdn-icons-png.flaticon.com/512/10132/10132191.png"><h2>Plantation</h2>
+    <img src="https://cdn-icons-png.flaticon.com/512/3187/3187887.png"><h2>Calendar</h2>
+    <img src="https://cdn-icons-png.flaticon.com/512/10132/10132222.png"><h2>Rural</h2>
+    <img src="https://cdn-icons-png.flaticon.com/512/8467/8467255.png"><h2>Flower</h2>
+    <img src="https://cdn-icons-png.flaticon.com/512/2391/2391698.png"><h2>Car</h2>
+    <img src="https://cdn-icons-png.flaticon.com/512/5854/5854016.png"><h2>Food</h2>
+    <img src="https://cdn-icons-png.flaticon.com/512/6641/6641901.png"><h2>Strawberry</h2>
+
+</div>
+
+  </body>
+</form>
+  <script type="text/javascript">
+      
+
+    let input=document.querySelector('.image');
+
+
+    input.oninput=fuction(){
+
+
+        if(input.value!=''){
+          
+          image.style.width='25px';
+          image.style.height='25px';
+          image.style.opacity='25px';
+          image.style.pointerEvents='auto';
+         
+
+          button.style.opacity='1';
+          button.style.pointerEvents='auto';
+
+        }else{
+
+          image.style.width='0px';
+          image.style.height='0px';
+          image.style.opacity='0px';
+          image.style.pointerEvents='auto';
+
+         
+          button.style.opacity='0';
+          button.style.pointerEvents='nome';
+
+        }
+    }
+
+
+
+
+
+
+
+  </script>
+</html>
