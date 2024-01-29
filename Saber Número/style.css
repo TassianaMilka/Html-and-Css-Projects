@@ -1,0 +1,90 @@
+
+/*O tamanho da margem,largura,cor de fundo e a fonte da letra.*/
+*{
+    
+     margin:40px;
+     padding:40px;
+     box-sizing:border-box;
+     background-color:#8CFFFD;
+     font-family:cursive;
+
+
+    }
+
+
+
+    /*Destinado para a rolagem de página.*/
+    body{
+
+
+     overflow-y:scroll;
+   
+    } 
+
+
+    /*Rolagem de página*/
+
+    body :: webkit-scroll{
+
+     width:10px;
+  
+     
+    
+    } 
+
+   /*Rolagem de página*/
+    body:: webkit-scroll-thumb{
+
+    
+     border-radius:10px;
+   
+    
+
+    } 
+
+   /*Cor da letra*/
+   h1{
+
+     color:#BDB76B;
+   }
+
+
+/*Destinado para o Menu de Decoração*/
+   
+   #menu ul { 
+ 
+  padding:20px ;
+  margin:0px;
+  background-color:#1C1C1C;
+  list-style:none;
+}
+
+  #menu ul li { 
+
+display: inline; 
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    
+
+
+
+
+
+
+
