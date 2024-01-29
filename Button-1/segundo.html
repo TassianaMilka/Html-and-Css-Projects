@@ -1,0 +1,74 @@
+<!--Começo da criação em html-->
+<!DOCTYPE html>
+<html>
+<head>
+   <!--Título da página-->
+  <title>2</title>
+      
+</head>
+<body>
+   <!--Itens do css.-->
+   <style>
+
+
+      /*Cor da letra  que está sublinhada.*/
+      mark{
+
+         color:#FF7F27;
+      }
+      /*Destinado para o funcionamento da rolagem de página*/
+   body::-webkit-scrollbar{
+   width: 09px;
+   background-color:#FFFE91; 
+   border-radius:20px;
+}
+/*Pertece a página primeira imagem a sua posição,largura,cor e tamanho da letra*/
+  body::-webkit-scrollbar-thumb{
+  background-color:#9E2187;
+  border-radius:20px;
+     
+}
+
+      /*Destinado para o quadro de mudança de cores o tamanho,cor,letra e largura*/
+      div {
+         height: 200px;
+         line-height: 200px;
+         color: white;
+         text-align: center;
+         padding-left: 20px;
+         padding-right: 20px;
+      }
+      /*Destinado para deixar descrito no meio da página centralizado*/
+      h1{
+
+         text-align:center;
+ 
+      }
+   </style>                               <!--Destinado na sublinhar a palalvra-->
+                                    <h1><mark>Frase de palavras</mark></h1>
+                                    <!--Frase como um paragráfo-->
+   <blockquote>A seguir encontra-se um botão para o usuário acessar e visualizar o que está descrito.</blockquote>
+   <br/>
+   <br/>
+   <br/>
+   <!--Deixar como um paragráfo-->
+        <blockquote>
+        	<!--Destinado o p para visualizar a frase descrita-->
+     <p id="demo">A palavra é a expressão para classificar o sentido da frase.</p>
+     <!--O button destinado para aperta e obter o acesso ao conteúdo-->
+     <button type="button" onclick="minhafun()">chage value</button>
+     <!--Elemento do Javascript-->
+     <script>
+     	/*O nome da função é minhafun*/
+     	function minhafun(){
+     		/*Declaração da variável string de uma frase.*/
+     		var text="Frase destinado para descrever o argumento de cada palavra ao leitor e leitora.";
+     		/*Imprimir a frase que foi declarada na variável.*/
+     	document.getElementById("demo").innerHTML=text;
+}
+     </script>
+  
+   </blockquote>
+</body>
+<!--Finalização da criação em html-->
+</html>
