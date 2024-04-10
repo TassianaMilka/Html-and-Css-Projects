@@ -50,6 +50,6 @@ Hola a todos, la creación de un reembolso tenía la intención de poner los pro
 5.Todos los proyectos estarán en HTML y CSS, pero también publicarán los Alnuns que contienen como ejemplo: JavaScript.
 
 # --------------------------------------------------------------------------------------------------------------------------------
-(Muito Obrigada),(Thank You),(Gracias) is (どうもありがとうございます)
+(Muito Obrigada),(Thank You),(Gracias) and (どうもありがとうございます)
 
 # https://github.com/TassianaMilka/Html-and-Css-Project/wiki
