@@ -27,3 +27,16 @@ Image-(6)
 ![Imagem_6](https://github.com/TassianaMilka/Html-and-Css-Projects/assets/114196099/81309298-9301-4db9-95ba-2ae38943c575)
 
 
+Image-(7)
+
+![Imagem_7](https://github.com/TassianaMilka/Html-and-Css-Projects/assets/114196099/892f3a33-9b8f-4d0e-a53f-87ce46a39e20)
+
+
+Image-(8)
+
+![Imagem_8](https://github.com/TassianaMilka/Html-and-Css-Projects/assets/114196099/2ee01ab0-319b-4aab-923b-fcc1b670ea49)
+
+Image-(9)
+
+
+![Imagem_9](https://github.com/TassianaMilka/Html-and-Css-Projects/assets/114196099/c65a19d8-82b2-416e-9e4f-bbb496792388)
