@@ -21,3 +21,8 @@ Image-(5)
 Image-(6)
 
 ![Imagem_6](https://github.com/TassianaMilka/Html-and-Css-Projects/assets/114196099/f1c49d09-0d18-4935-8632-4db32cdbd3c8)
+
+Image-(7)
+
+![Imagem_7](https://github.com/TassianaMilka/Html-and-Css-Projects/assets/114196099/3c687966-a4b3-4c9e-ae9b-afa88b049f82)
+
