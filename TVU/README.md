@@ -17,3 +17,7 @@ Image-(4)
 Image-(5)
 
 ![Imagem_5](https://github.com/TassianaMilka/Html-and-Css-Projects/assets/114196099/74d9fdb0-c1e4-4dc4-b3b2-4af7ec94abaa)
+
+Image-(6)
+
+![Imagem_6](https://github.com/TassianaMilka/Html-and-Css-Projects/assets/114196099/f1c49d09-0d18-4935-8632-4db32cdbd3c8)
