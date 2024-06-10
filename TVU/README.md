@@ -5,3 +5,7 @@ Image-(1)
 Image-(2)
 
 ![Imagem_2](https://github.com/TassianaMilka/Html-and-Css-Projects/assets/114196099/94b20856-43a3-4b88-9302-c6110caa6825)
+
+Image-(3)
+
+![Imagem_3](https://github.com/TassianaMilka/Html-and-Css-Projects/assets/114196099/68ad01af-9326-41ea-b312-57ae6c8c5c45)
