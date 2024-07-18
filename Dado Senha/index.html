@@ -1,0 +1,68 @@
+  <!--Começo da criação de html-->
+  <!DOCTYPE html>
+   <html lang="pt-br">
+    <head>
+      <meta charset="UTF-8">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <!--O nome do título da página-->
+      <title>Dados senha_1</title> 
+  </head>
+  <body>
+      <!--Css-->
+      <style>
+      /*O tamanho da margem,largura,cor de fundo e a fonte da letra.*/
+        *{
+          margin:20px;
+          padding:26px;
+          background-color:#CBF6FD;
+          font-family:monospace;
+
+        }
+
+        /*A  cor da letra em h2*/
+        .frase{
+
+            color:#F08650;
+        }
+
+        /*A  cor da letra em label*/
+        .dado{
+
+          color:#000000;
+        }
+
+      </style>
+      <!--O nome da div é frase-->
+      <div class="frase">
+        <!--Vai exibir essa frase na página para visualizar-->
+        <h2>Olá por aqui consegue o acesso a sua senha de chamada</h2>
+        <!--Vai exibir essa frase na página para visualizar-->
+        <h2>Por favor informa seus dados abaixo em cada campo.</h2>
+      </div>
+        <br/>
+        <br/>
+        <label class="dado">
+          Nome:
+        <!--Demonstrar o quadro para prencher na tela com o nome e o this é uma referência---> 
+        <!--O onBlur irá controlar o conteúdo de um elemento em 
+        um formulário select, text ou textarea quando o mesmo remove-->   
+        <input type="text" name="nome" onBlur="condicao(this.value)"> 
+        </label>
+       <label class="dado">
+        Idade:
+        <input type="text" name="idade" onBlur="condicao(this.value)"> 
+        </label>
+        <br/>
+        <script>
+          /*Um lembrete de aviso*/
+          alert("Acesso para senha informar os dados necessário!");
+        </script>
+
+          <br/>
+          <!---É o link que vai direcionar para próxima página-->
+          <a href="senhaprimeira.html">Senha</a>
+          
+
+    </boby>
+    <!--Finalização da criação-->
+    </html>
