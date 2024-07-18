@@ -1,0 +1,224 @@
+
+   <!DOCTYPE html>
+   <html lang="pt-br">
+   <head>
+      <meta charset="UTF-8">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <title>Forms</title>
+   </head>
+   <body>
+   <style>
+
+	*{
+
+
+     margin:20px;
+     padding:20px;
+     box-sizing:border-box;
+
+
+
+	}
+
+    body{
+
+     background-color:#FFF;
+     background-image: url("https://imgs.search.brave.com/444UpbLG3HboGy93OfRYmq0Mi4EWSAw7ESDhaS7wFeE/rs:fit:1200:1080:1/g:ce/aHR0cHM6Ly9pMi53/cC5jb20vbXVsdGFy/dGUuY29tLmJyL3dw/LWNvbnRlbnQvdXBs/b2Fkcy8yMDE5LzAx/L2NldS1henVsLW51/dmVuczkuanBnP2Zp/dD0xOTIwJTJDMTA4/MCZzc2w9MQ");
+     
+
+    }  
+
+    #foto{
+
+    	overflow:hidden;
+    	width: 100%;
+    	height: 100%;
+    	position: relative;
+
+
+    }
+
+    #fundo{
+
+          position:fixed;
+          width: 100%;
+          height: 100%;
+
+
+
+    }
+
+  
+
+    .rect-box{
+
+    	width:300px;
+    	height:188px;
+    	border-radius:500px;
+    
+    }
+
+
+    .form-box input{
+
+      width: 100px;
+      border: 50px;
+      outline:none;
+      padding:600px;
+      font-size:16px;
+
+    }
+
+    .form-box button{
+
+      width:100px;
+      border:none;
+      outline: none;
+      cursor:pointer;
+      font-size:50px;
+      font-weight:500;
+      background-color:#0099ff;
+      color:#fff;
+
+    }
+
+
+    .form.txt-field{
+
+    position:relative;
+    border-bottom:50px solid #adadad;
+    margin:70px 0;
+    }
+
+
+    .txt-field input{
+
+    width:200%;
+    padding:0 50px;
+    height:300px;
+    font-size:16px;
+    border: 2px solid rga(0,0,0,0);
+    outline:none;
+
+    }
+
+    .txt_field label{
+      position:absolute;
+      top:50%;
+      left:50px;
+      color:#adadad;
+      transform:translateY(-50%);
+      font-size: 16px;
+      pointer-events: none;
+      transition:5s;
+
+    } 
+    .txt.field span::before{
+
+        content: ' '; 
+        position:absolute;
+        top:40px;
+        left:500;
+        width:300;
+        height:200px;
+        background-color:#2691d9;
+        transition:.5s;
+
+
+    }
+
+    .txt_field input:focus~label,
+    .txt_field input:valid~label{
+      top:-5px;
+      color:#6A5ACD;
+
+    }
+
+    .txt_field input:focus~span:before,
+    .txt_field input:valid~span:before{
+
+      width: 100%;
+   
+    }
+
+    input[type="submit"]{
+
+    width:100px;
+    margin:50px;
+    border-radius:60px;
+    background:#2691d9;
+
+
+    }
+
+
+</style>
+
+        <h1>Perguntas</h1>
+
+        <h2>A seguir encontra as perguntas para responder</h2>
+        <h2> Nome dessa história:"O Caminho certo não combina com o errado."</h2>
+        <p>Tudo começa com algo que fluem muito mais maior que esse planeta Terra.E nem a  ciência humana sabe explicar,pois não criaram nada quando refere o além do além.A humanidade não está presente aqui,mas em lugar que só agraciados e agraciadas tendo que cumprir um propósito diferente de muitos para ganhar o prêmio no final.</p>
+
+
+  
+      <form method="Post">
+      <label>
+        Quais são os principais pontos da história?
+      <div class="txt_field">
+      <input type="pergunta1." required>
+      <span></span>
+        </div>
+      </label>
+        <label>
+            Descreve os  personagens que estão destinado?
+        <div class="txt_fileld">
+        <input type="pergunta2" required>
+        <span></span>
+          </div>
+        </label>
+
+      <label>
+        Algo mais marcante dessa história?
+        <div class="txt_field">
+        <input type="pergunta3" required>
+        <span></span>
+          </div>
+        </label>
+
+
+        <label>
+            O que entendeu além do além?
+        <div class="txt_field">
+        <input type="pergunta4" required>
+        <span></span>
+          </div>
+        </label>
+
+        <label>
+            Propósito diferente de muitos relata sobre isso?  
+        <div class="txt_field">
+        <input type="texto" required>
+        <span></span>
+            </div>
+        </label>
+
+        <label>
+              Quando ganharão o prêmio?
+        <div class="txt_field">
+        <input type="texto" required>
+        <span></span>
+            </div>
+        </label>
+
+        <label>
+            Resumi em poucas linhas sobre  o que apredendeu dessa história?
+        <div class="txt_field">
+        <input type="texto" required>
+        <span></span>
+                </div>
+            </label>
+          </form>
+        <input type="submit" value="Enviar"></input>
+  </body>
+</html>
