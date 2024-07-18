@@ -1,0 +1,84 @@
+   <!--Começo da criação em html-->
+   <!DOCTYPE html>
+   <html lang="pt-br">
+   <head>
+      <meta charset="UTF-8">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <!--Título da página-->
+      <title>1</title> 
+</head>
+<body>
+   <!--Itens do css.-->
+   <style>
+
+      /*Cor da letra  que está sublinhada.*/
+      mark{
+
+         color:#FF7F27;
+      }
+
+      /*Destinado para o funcionamento da rolagem de página*/
+      body::-webkit-scrollbar{
+
+         width: 09px;
+         background-color:#FFFE91; 
+         border-radius:20px;
+      }
+
+      /*Pertece a página primeira imagem a sua posição,largura,cor e tamanho da letra*/
+      body::-webkit-scrollbar-thumb{
+
+         background-color:#9E2187;
+         border-radius:20px;
+         
+      }
+
+      /*Destinado para o quadro de mudança de cores o tamanho,cor,letra e largura*/
+      div {
+         height: 200px;
+         line-height: 200px;
+         color: white;
+         text-align: center;
+         padding-left: 20px;
+         padding-right: 20px;
+      }
+      /*Destinado para deixar descrito no meio da página centralizado*/
+      h1{
+
+         text-align: center;
+ 
+      }
+   </style>                      <!--Destinado na sublinhar a palalvra-->
+                                    <h1><mark>Cores</mark></h1>
+                                    <!--Frase como um paragráfo-->
+        <blockquote>A seguir encontra-se um botão para o usuário acessar e visualizar mudança de duas cores.
+</blockquote>
+   <br/>
+   <br/>
+      <!--O nome da  div é um-->
+      <div class="um">
+      <!--Destinado para visualizar a cor para clicar e mudar com uma frase centralizada-->
+      <div onclick= changeColor(this) style=background-color:deeppink;> 
+      Two color!
+        </onclick>
+      </div>
+</div>
+<!--Elemento do Javascript-->
+   <script>
+      /*É uma função destina realizar a troca das cores*/
+      function changeColor(element) {
+         /*Declaração juntamente com o elemento da cor*/
+         var currentColor = element.style.backgroundColor;
+         /*validação de dado igual a cor a verde e rosa*/
+         if(currentColor == "deeppink") {
+            /*Contém o elemento,o style do css utilizando o back color para visualizar a cor verde*/
+            element.style.backgroundColor = "green";
+         } else {
+            /*Contém o elemento,o style do css utilizando o back color para visualizar a cor rosa*/
+            element.style.backgroundColor = "deeppink"; 
+         }
+      }
+   </script>
+</body>
+<!--Finalização da criação em html-->
+</html>
