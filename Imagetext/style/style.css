@@ -1,0 +1,144 @@
+/*Elements style abou project Image and text in two files html*/
+*{
+
+  padding: auto;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.Title-center {
+
+  background-color: #000000;
+  color: #fff;
+  padding: 20px;
+  margin:0.9px;
+  text-align: center;
+}
+
+
+.title {
+
+  margin: 0;
+  font-size: 36px;
+}
+
+.image-text {
+
+  margin: 0 auto;
+  max-width: 1200px;
+  padding: 20px;
+}
+
+.recipe-list {
+
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.recipe-item {
+
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 20px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+  border-radius: 5px;
+  overflow: hidden;
+}
+
+.recipe-item .image {
+
+  width: 150px;
+  height: 150px;
+  object-fit: cover;
+}
+
+.recipe-item .image-text-title-two {
+
+  font-size: 20px;
+  padding: 10px;
+  min-width: 200px;
+  
+}
+
+.recipe-item .text {
+
+  margin: 0;
+  padding: 10px;
+  color: #2c2929;
+  font-size: 16px;
+}
+
+.recipe-item .text-example {
+
+  align-items: center;
+  color: #2c2929;
+}
+
+.recipe-item .Website-link {
+
+  margin: 12px;
+  background: #000000;
+  color: #fff;
+  min-width: 150px;
+  padding: 10px;
+  align-items: center;
+  text-decoration: none;
+  text-transform: uppercase;
+  font-size: 14px;
+  transition: background 0.3s ease;
+  border-radius: 23px;
+  
+}
+
+.recipe-item .Website-link:hover {
+
+  background: #1e3799;
+}
+
+.link-text {
+
+  text-decoration: none;
+  color: #000000;
+}
+
+@media screen and (max-width: 768px) {
+
+  .image-text {
+
+    max-width: 90%;
+  }
+  .recipe-item {
+
+    flex-direction: column;
+  }
+
+  .recipe-item .image {
+
+    width: 100%;
+    height: auto;
+    margin-bottom: 10px;
+  }
+
+  .recipe-item .image-text-title-two {
+
+    font-size: 20px;
+    padding: 0;
+    margin-bottom: 10px;
+  }
+
+  .recipe-item .text {
+
+    font-size: 14px;
+    margin-bottom: 10px;
+
+  }
+
+  .recipe-item .Website-link {
+
+    width: 100%;
+    text-align: center;
+ 
+   }
+  
+}
