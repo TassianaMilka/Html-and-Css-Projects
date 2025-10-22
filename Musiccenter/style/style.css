@@ -1,0 +1,48 @@
+
+/* Elements CSS*/
+
+*{
+
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  background-color: #d0caca;
+  font-size: 30px;
+
+
+}
+
+.card{
+
+  display: flex;
+  background-color: #000000;
+  box-shadow: 0 4px 8px 0;
+  width: 600px;
+  border-radius: 6px;
+  margin: 390px;
+  align-items:center;
+  justify-content: center;
+  padding: 150px;
+  
+}
+
+.card-two{
+
+  display: flex;
+  background-color: #ffffff;
+  box-shadow: 0 4px 8px 0;
+  width: 600px;
+  border-radius: 6px;
+  margin: 390px;
+  align-items:center;
+  justify-content: center;
+  padding: 150px;
+
+}
+
+.text-link{
+
+
+
+  text-decoration: none;
+  color:#000000;
+
+}
